@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: yekanbakh;
+}
+
+.alinshops__category--items {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.alinshops__category--item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.alinshops__category--item h2 {
+  color: #333;
+  font-size: 18px;
+  margin: 6.5px 0;
+  transition: all 0.2s;
+}
+
+.alinshops__category--item span {
+  background: #0058ac;
+  color: #fff;
+  padding: 3px 12px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.alinshops__category--item span svg {
+  margin-right: 7px;
+}
+
+.alinshops__category--item:hover h2 {
+  color: red;
+}
+
+.alinshops__category--item:hover span {
+  background-color: red;
+}
+
+.alinshops__item--img {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  background-color: silver;
+}
+
+.category_img--1 {
+  background-image: url("../img/download\ \(1\).jpg");
+}
+
+.category_img--2 {
+  background-image: url("../img/download\ \(2\).jpg");
+}
+
+.category_img--3 {
+  background-image: url("../img/download\ \(8\).jpg");
+}
+
+.category_img--4 {
+  background-image: url("../img/249e1defd43dcbbd.jpg");
+}
+
+.category_img--5 {
+  background-image: url("../img/caa32560287ed7cd.jpg");
+}
+
+.category_img--6 {
+  background-image: url("../img/b2c4d44984a6d06b.jpg");
+}
+
+.category_img--7 {
+  background-image: url("../img/d469a613dde83ec9.jpg");
+}
+
+.category_img--8 {
+  background-image: url("../img/eb39a9d8dd43ce9f.jpg");
+}
+
+.category_img--9 {
+  background-image: url("../img/3b69b0ba800852b6.jpg");
+}
+
+.category_img--10 {
+  background-image: url("../img/b5f8f141f4a5b91b.jpg");
+}
+
+.category_img--11 {
+  background-image: url("../img/8dc98a35b311f8b6.jpg");
+}
+
+.category_img--12 {
+  background-image: url("../img/f0af5949c4e7e2f5.jpg");
+}
